@@ -2,6 +2,7 @@
 $fa-font-path: "../bower_components/font-awesome/fonts";
 
 @import '../bower_components/font-awesome/scss/font-awesome';
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
 /**
  * App-wide Styles
@@ -24,5 +25,31 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 // Component styles are injected through grunt
 // injector
 @import 'main/main.scss';
+@import 'resume/resume.scss';
 @import '../components/footer/footer.scss';
 // endinjector
+
+.name.header-logo{
+	list-style-type: none;
+}
+
+.tab-bar-section ul li{
+	list-style-type: none;
+}
+
+img {
+  width: 100%;
+  padding-top: 30px;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+h1 { font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; }
+
+body{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}

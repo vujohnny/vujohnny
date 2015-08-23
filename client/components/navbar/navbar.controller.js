@@ -5,7 +5,20 @@ angular.module('vujohnnyApp')
     $scope.menu = [{
       'title': 'Home',
       'state': 'main'
-    }];
+    },
+    {
+      'title': 'Portfolio',
+      'state': 'portfolio'
+    },
+    {
+      'title': 'Resume',
+      'state': 'resume'
+    },
+    {
+      'title': 'Contact',
+      'state': 'contact'
+    }
+    ];
 
     $scope.isCollapsed = true;
   });

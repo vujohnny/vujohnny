@@ -12,3 +12,6 @@ angular.module('vujohnnyApp', [
 
     $locationProvider.html5Mode(true);
   });
+
+
+
