@@ -1,0 +1,117 @@
+<navbar></navbar>
+<section class="main-section">
+    <div class="row">
+        <h1>Contact Me</h1>
+        <h2 id="successmessage" style="display:none; font-size:0.8rem" class="success label">Your Message Has Been Successfully Submitted. Thanks.<br/><br/></h2>
+        <script type="text/javascript">
+        if (window.location.search == '?form=sub') {
+            document.getElementById('ss-form').reset();
+            document.getElementById('successmessage').style.display = 'inline-block'
+        };
+        </script>
+        <script type="text/javascript">
+        var submitted = false;
+        </script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://localhost:9000/contact?form=sub';}"></iframe>
+        <form data-abide action="https://docs.google.com/forms/d/19AmhIgnuI42IEcP6CAWdxwl9vrsZbax3nBfU47Cf15o/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;" id="ss-form">
+            <ol role="list" class="ss-question-list" style="padding-left: 0">
+                <div class="ss-form-question errorbox-good" role="listitem">
+                    <div dir="auto" class="ss-item ss-item-required ss-text">
+                        <div class="ss-form-entry">
+                            <label class="ss-q-item-label" for="entry_2955400">
+                                <div class="ss-q-title">Name<span class="ss-required-asterisk" aria-hidden="true">*</span>
+                                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                </div>
+                                <div class="ss-q-help ss-secondary-text" dir="auto"></div>
+                            </label>
+                            <input type="text" name="entry.2955400" value="" class="ss-q-short" id="entry_2955400" dir="auto" aria-label="Name  " aria-required="true" title="" placeholder="Full Name" required pattern="[a-zA-Z]+"><small class="error">Valid first name is required</small>
+                            <div class="error-message" id="1155484576_errorMessage"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ss-form-question errorbox-good" role="listitem">
+                    <div dir="auto" class="ss-item ss-item-required ss-text">
+                        <div class="ss-form-entry">
+                            <label class="ss-q-item-label" for="entry_2362106">
+                                <div class="ss-q-title">Email<span class="ss-required-asterisk" aria-hidden="true">*</span>
+                                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                </div>
+                                <div class="ss-q-help ss-secondary-text" dir="auto"></div>
+                            </label>
+                            <input type="email" name="entry.2362106" value="" class="ss-q-short" id="entry_2362106" dir="auto" aria-label="Email  Please enter a valid email address" aria-required="true" title="Valid email address require" placeholder="Email" required> <small class="error">Valid email is required</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="ss-form-question errorbox-good columns medium-6 phone" role="listitem">
+                    <div dir="auto" class="ss-item ss-item-required ss-text">
+                        <div class="ss-form-entry">
+                            <label class="ss-q-item-label" for="entry_2539523">
+                                <div class="ss-q-title">Phone<span class="ss-required-asterisk" aria-hidden="true">*</span>
+                                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                </div>
+                                <div class="ss-q-help ss-secondary-text" dir="auto"></div>
+                            </label>
+                            <input type="text" name="entry.2539523" value="" class="ss-q-short" id="entry_2539523" dir="auto" aria-label="Phone  Please enter a valid phone number" aria-required="true" pattern=".*^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$.*" title="Please enter a valid phone number" placeholder="Phone Number" required maxlength="10"><small class="error">Valid phone number is required</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="ss-form-question errorbox-good columns medium-6 contactmethod" role="listitem">
+                    <div dir="auto" class="ss-item ss-item-required ss-select">
+                        <div class="ss-form-entry">
+                            <label class="ss-q-item-label" for="entry_2135751">
+                                <div class="ss-q-title">Preferred Contact Method<span class="ss-required-asterisk" aria-hidden="true">*</span>
+                                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                </div>
+                                <div class="ss-q-help ss-secondary-text" dir="auto"></div>
+                            </label>
+                            <select name="entry.2135751" id="entry_2135751" aria-label="Preferred Contact Method  " aria-required="true" required>
+                                <option value=""></option>
+                                <option value="Email">Email</option>
+                                <option value="Phone">Phone</option>
+                                <option value="Mail">Mail</option>
+                            </select><small class="error">Please select a preferred contact method</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="ss-form-question errorbox-good" role="listitem">
+                    <div dir="auto" class="ss-item ss-item-required ss-paragraph-text">
+                        <div class="ss-form-entry">
+                            <label class="ss-q-item-label" for="entry_2814641">
+                                <div class="ss-q-title">Your Message<span class="ss-required-asterisk" aria-hidden="true">*</span>
+                                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                </div>
+                                <div class="ss-q-help ss-secondary-text" dir="auto"></div>
+                            </label>
+                            <textarea name="entry.2814641" rows="8" cols="0" class="ss-q-long" id="entry_2814641" dir="auto" aria-label="Your Message  " aria-required="true" placeholder="Your Message" required style="resize:none"></textarea><small class="error">Message required</small>
+                            <div class="error-message" id="252332814_errorMessage"></div>
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" name="draftResponse" value="[,,&quot;-5814005140063106844&quot;]
+">
+                <input type="hidden" name="pageHistory" value="0">
+                <input type="hidden" name="fvv" value="0">
+                <input type="hidden" name="fbzx" value="-5814005140063106844">
+                <div class="ss-item ss-navigate">
+                    <table id="navigation-table">
+                        <tbody>
+                            <tr>
+                                <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+                                    <button type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">Submit</button>
+                                    <div class="ss-password-warning ss-secondary-text"></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </ol>
+        </form>
+        <script type="text/javascript">
+        var submitted = false;
+        </script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)
+{window.location='http://YOUR-THANK-YOU-PAGE-URL';}"></iframe>
+        <form action="YOUR-EMBEDDED-GOOGLE-SPREADSHEET-LINK" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+    </div>
+    <footer></footer>
+</section>

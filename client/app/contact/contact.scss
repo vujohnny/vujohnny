@@ -1,0 +1,23 @@
+.phone,
+.contactmethod {
+    padding-left: 0;
+}
+
+#navigation-table {
+    border:none;
+}
+
+#navigation-table tr td{
+	padding: 0;
+}
+
+#ss-form ol{
+	margin-left:0;
+}
+
+$input-error-message-font-size: rem-calc(12);
+$input-error-message-font-weight: $font-weight-normal;
+$input-error-message-font-style: italic;
+$input-error-message-font-color: $white;
+$input-error-message-bg-color: green;
+$input-error-message-font-color-alt: $oil;
