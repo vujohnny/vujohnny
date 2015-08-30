@@ -1,16 +1,6 @@
-.thing-form {
-  margin: 20px 0;
-}
-
-#banner {
-  border-bottom: none;
-  margin-top: -20px;
-}
-
-#banner h1 {
-  font-size: 60px;
-  line-height: 1;
-  letter-spacing: -1px;
+.title-area li h1 a{
+  font-size: 2rem;
+  color: white;
 }
 
 .hero-unit {
@@ -24,4 +14,13 @@
 
 .navbar-text {
   margin-left: 15px;
+}
+
+.homepage{
+  margin-top: 30px;
+}
+ 
+.linkedinphoto{
+  margin-top: 15px;
+  border: 5px solid gray;
 }
