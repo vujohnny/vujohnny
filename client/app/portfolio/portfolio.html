@@ -1,0 +1,12 @@
+<navbar></navbar>
+<section class="main-section">
+    <div class="row data-equalizer">
+        <h2>My Portfolio</h2>
+        <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 data-equalizer-watch" ng-repeat-start="company in companies"><h3 class="columns">{{company.company}}</h3>
+            <li ng-repeat-start="website in company.websites" screenshot url="website.url"></li>
+            <div ng-repeat-end></div>
+        </ul>
+        <ul ng-repeat-end></ul>
+    </div>
+    <footer></footer>
+</section>

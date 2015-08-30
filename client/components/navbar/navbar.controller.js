@@ -19,6 +19,4 @@ angular.module('vujohnnyApp')
       'state': 'contact'
     }
     ];
-
-    $scope.isCollapsed = true;
   });

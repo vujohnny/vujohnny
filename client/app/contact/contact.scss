@@ -1,19 +1,7 @@
-.phone,
-.contactmethod {
+.phone-field, .contact-field {
     padding-left: 0;
 }
 
-#navigation-table {
-    border:none;
-}
-
-#navigation-table tr td{
-	padding: 0;
-}
-
-#ss-form ol{
-	margin-left:0;
-}
 
 $input-error-message-font-size: rem-calc(12);
 $input-error-message-font-weight: $font-weight-normal;

@@ -1,20 +1,30 @@
 <div class="row">
-<p>Copyright &copy; 2014 <a href="#" title="vujohnny">vujohnny.com</a></p>
+    <p>Copyright &copy; 2014 <a href="#" title="vujohnny">vujohnny.com</a></p>
 </div>
-
 <script>
-	$(window).scroll(function() {
-		if($('.off-canvas-wrap.move-right').length){
-			$('.exit-off-canvas').trigger("click");
-		}
-	});
+$(window).scroll(function() {
+    if ($('.off-canvas-wrap.move-right').length) {
+        $('.exit-off-canvas').trigger("click");
+    }
+});
 
-	$('.left-off-canvas-toggle.menu-icon').click(function(){
-		console.log("on click going to top");
-		if($(window).scrollTop()!=0){
-			console.log("going to top");
-			$("html, body").animate({ scrollTop: 0 }, "fast");	
-		}
-	});
-$(document).foundation();
+$('.left-off-canvas-toggle.menu-icon').click(function() {
+    console.log("on click going to top");
+    if ($(window).scrollTop() != 0) {
+        $("html, body").animate({
+            scrollTop: 0
+        }, "fast");
+    }
+});
+
+$(document).foundation({
+    offcanvas: {
+        // Sets method in which offcanvas opens.
+        // [ move | overlap_single | overlap ]
+        open_method: 'move',
+        // Should the menu close when a menu link is clicked?
+        // [ true | false ]
+        close_on_click: true
+    }
+});
 </script>
