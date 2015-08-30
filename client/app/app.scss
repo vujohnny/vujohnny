@@ -54,21 +54,3 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-.fa-facebook {
-    border: 1px solid lightblue;
-    padding: 12px;
-    border-radius: 1px;
-    background: linear-gradient(blue, #303496);
-    color: white;
-    &:before {
-        border-right: solid;
-        padding: 2px;
-    }
-}
-
-.facebook span {
-    padding: 11px 2px 15px;
-    border-radius: 4px;
-    background-color: darkblue;
-}

@@ -3,15 +3,6 @@
   color: white;
 }
 
-.hero-unit {
-  position: relative;
-  padding: 30px 15px;
-  color: #F5F5F5;
-  text-align: center;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  background: #4393B9;
-}
-
 .navbar-text {
   margin-left: 15px;
 }
@@ -22,5 +13,23 @@
  
 .linkedinphoto{
   margin-top: 15px;
-  border: 5px solid gray;
+  border: 5px solid #E5E5E5;
+}
+
+.fa-facebook {
+    border: 1px solid lightblue;
+    padding: 12px;
+    border-radius: 1px;
+    background: linear-gradient(blue, #303496);
+    color: white;
+    &:before {
+        border-right: solid;
+        padding: 2px;
+    }
+}
+
+.facebook span {
+    padding: 11px 2px 15px;
+    border-radius: 4px;
+    background-color: darkblue;
 }
