@@ -1,9 +1,12 @@
 @import "../bower_components/foundation/scss/foundation/settings";
 @import "../bower_components/foundation/scss/foundation/components/buttons";
 @import "../bower_components/foundation/scss/foundation/components/forms";
+@import "../bower_components/foundation/scss/foundation/components/top-bar";
+@import "../bower_components/foundation/scss/foundation/components/offcanvas";
+
 $fa-font-path: "../bower_components/font-awesome/fonts";
 @import '../bower_components/font-awesome/scss/font-awesome';
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,800);
 
 /**
  * App-wide Styles
@@ -53,4 +56,13 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.top-bar-section {
+    position: absolute;
+}
+
+.header-logo h1{
+    font-size: 2rem;
+    font-weight: 800;
 }

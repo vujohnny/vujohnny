@@ -2,10 +2,10 @@
     padding-left: 0;
 }
 
+#form-submit{
+	background-color: #008CBA;
+}
 
-$input-error-message-font-size: rem-calc(12);
-$input-error-message-font-weight: $font-weight-normal;
-$input-error-message-font-style: italic;
-$input-error-message-font-color: $white;
-$input-error-message-bg-color: green;
-$input-error-message-font-color-alt: $oil;
+.main-section{
+	padding:15px;
+}

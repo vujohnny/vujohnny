@@ -40,6 +40,10 @@ angular.module('vujohnnyApp')
                 {
                     name: 'Hand Perfection',
                     url: 'https://www.handperfection.com/order'
+                },
+                {
+                    name: 'Acne',
+                    url: 'http://www.acne.com'
                 }
             ]
         }, {
