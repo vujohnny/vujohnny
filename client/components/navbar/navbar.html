@@ -1,7 +1,7 @@
 <div class="contain-to-grid sticky" ng-controller="NavbarCtrl">
     <nav class="tab-bar" data-topbar role="navigation" data-options="sticky_on: [small, medium, large]" aria-hidden="true">
         <ul class="title-area">
-            <li class="name header-logo small-offset-3 medium-offset-0">
+            <li class="name header-logo small-offset-2 medium-offset-0">
                 <h1><a href="/">Johnny Vu</a></h1>
             </li>
         </ul>
@@ -12,7 +12,7 @@
             <!-- Right Nav Section -->
             <ul class="right">
                 <li ng-repeat="item in menu" ui-sref-active="active">
-                    <a ui-sref="{{item.state}}">{{item.title}}</a>
+                    <a ui-sref="{{item.state}}">{{item.title}}&nbsp&nbsp<i class="{{item.icon}}"></i></a>
                 </li>
             </ul>
         </section>

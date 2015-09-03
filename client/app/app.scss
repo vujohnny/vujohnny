@@ -36,6 +36,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 @import 'resume/resume.scss';
 @import '../components/footer/footer.scss';
 @import '../components/screenshot/screenshot.scss';
+@import '../components/social/social.scss';
 // endinjector
 .name.header-logo {
     list-style-type: none;
@@ -52,6 +53,10 @@ img {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+}
+
+p{
+    font-size: .8rem;
 }
 
 body {
